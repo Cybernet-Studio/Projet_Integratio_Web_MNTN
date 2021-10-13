@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Chronicle Display Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Light Italic'), url('fonts/Chronicle Display Light Italic.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Chronicle Display Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Roman'), url('fonts/Chronicle Display Roman.woff') format('woff');
+}
+@font-face {
+    font-family: 'Chronicle Display Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Semibold'), url('fonts/Chronicle Display Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Chronicle Display Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Black'), url('fonts/Chronicle Display Black.woff') format('woff');
+}
+
+body{
+    background-color: #0b1d26;
+}
+
+.absolut{
+    position: absolute;
+    z-index: 1;
+    left: 0; top: 160%;
+}
+/* header */
+header {
+    background-image: url('img/Prsentation.png');
+    background-size: cover;
+    height: 100vw;
+}
+.logoMntn{padding-left: 4vh;}
+.navMenu{padding-top: 5vw;}
+ul{list-style: none;}
+header h1{font-size: 4vw; padding-bottom: 2%;}
+header h3, .logoMntn{font-size: 2vw;}
+li, .read_more{font-size: 2vh;}
+header h1, .scroll_down, p, .nav-link{color: white;}
+
+.hiking_guide_title{margin: 15% 0 0 30%;}
+
+.txt_hiking_guide, .logo{font-family: 'Chronicle Display Semibold';}
+
+.scroll_down, .Bas_h3_Sct, .Nav_Link_Small{font-size: 100%;font-family: 'Chronicle Display Black';}
+
+/* section */
+/* number 01 02 03 */
+.img{
+    width:50%; height: 80%;
+}
+/* deco */
+h1, h3, h2{color: #FBD784;}
+.line{
+    background-color: #FBD784;
+    height: 3px; width: 8vw;
+    margin-right:2vw;
+}
+h1, p{font-family: 'Chronicle Display Roman';}
+p{font-size: 1vw;}
+
